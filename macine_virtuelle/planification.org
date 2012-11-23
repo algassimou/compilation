@@ -1,0 +1,26 @@
+Crétion de la machine virtuelle
+* création de type de segments
+** segment de donné
+   contient les données globales et locales du programme
+   avec de compteur (le pointeur de pile SP) et (le pointeur de cadre de fonction EP)
+
+     fin +------------------------+
+	 |             	          |
+	 |             	          |
+	 |             	          |
+	 |             	          |
+	 | variables temporaires  |
+       	 |  locales            	  |
+       	 |             	          |
+       	 |             	          |
+       ^ |                        |
+       | |                        |
+       | +------------------------+		 
+	 |                        |
+	 |                        |
+	 | variable globales      |
+	 |                        |
+       0 +------------------------+
+
+** segment de code
+   contient le code du programme a exécuter et un compteur ordinal (IP)

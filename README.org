@@ -1,0 +1,8 @@
+Projet création d'un compilateur pour un langage de haut niveau 
+(sous ensemble de pascal) et géneration d'un code objet pour une
+machine virtuelle. Implementation de la machine virtuel
+* TODO Compilateur
+** TODO realisation d'un interprète d'expression arithmetique
+*** ecriture de l'analyseur lexical
+*** ecriture de l'analyseur syntaxique
+* TODO Implémentation de la machine virtuelle
